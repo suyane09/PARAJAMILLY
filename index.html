@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Suyane & Jamilly</title>
+<title>Parabéns, Meu Grande Amor</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Outfit:wght@300;400;500;600&family=Baloo+2:wght@600;700&display=swap" rel="stylesheet">
@@ -402,6 +402,20 @@ footer{background:#160817;color:#f6a8cf}
 .loader-heart{color:#ff3f9f;text-shadow:0 0 25px rgba(255,63,159,.8),0 0 55px rgba(124,77,255,.5)}
 
 </style>
+<style id="aniversario">
+#voce h2,#nos h2{font-size:2.2rem;color:var(--wine);text-align:center;margin-bottom:36px}
+.about-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:22px}
+.about-card{background:linear-gradient(145deg,rgba(255,235,245,.95),#fff);border:1px solid rgba(255,63,159,.15);border-radius:14px;padding:26px 24px;box-shadow:0 18px 45px rgba(139,23,79,.08)}
+.about-card h3{font-size:1.2rem;font-style:italic;color:var(--wine);margin-bottom:8px}
+.about-card p,.about-text{color:#6b444c;font-size:1rem;line-height:1.8}
+.about-text{max-width:600px;margin:0 auto;text-align:center;font-family:'Playfair Display',serif;font-size:1.12rem}
+.about-text b{color:var(--wine)}
+.map-embed{max-width:620px;margin:40px auto 0;text-align:center}
+.map-embed iframe{display:block;width:100%;height:340px;border:0;border-radius:14px;cursor:auto;box-shadow:0 25px 55px rgba(20,5,20,.35),0 0 0 4px rgba(255,255,255,.18);filter:saturate(.85) hue-rotate(-12deg)}
+.map-embed a{display:inline-block;margin-top:14px;color:#ffdce9;font-size:.88rem;text-decoration:underline;text-underline-offset:3px}
+.map-embed a:hover{color:#fff}
+@media(max-width:640px){.map-embed iframe{height:280px}}
+</style>
 </head>
 <body>
 <div id="pageLoader"><div class="loader-heart">♥</div><div class="loader-text">uma história feita de duas pessoas e infinitos momentos...</div></div>
@@ -410,15 +424,29 @@ footer{background:#160817;color:#f6a8cf}
 <section id="hero">
   <div class="heart-field" id="heartField"></div>
   <div class="hero-content">
-    <div class="kicker">11 de abril de 2024</div>
-    <h1>Suyane <span class="amp">&</span> Jamilly</h1>
-    <p class="sub">Existem amores que a gente vive. O nosso, eu faço questão de guardar — em cada dia, em cada escolha, em cada detalhe desse cantinho que é só nosso.</p>
+    <div class="kicker">feliz aniversário</div>
+    <h1>Jamilly <span class="amp">♥</span></h1>
+    <p class="sub">Hoje o mundo comemora o dia em que você nasceu, e eu comemoro junto, agradecida por ter você na minha vida. Esse cantinho é todo seu.</p>
     <div class="counter">
       <div class="num" id="dayCount">0</div>
-      <div class="lbl">dias escolhendo você, todos os dias</div>
+      <div class="lbl">dias ao seu lado, e eu escolheria todos de novo</div>
     </div>
   </div>
   <div class="scroll-cue">role para descer ↓</div>
+</section>
+
+<section id="voce" class="reveal-section">
+  <h2>Sobre você, Jamilly</h2>
+  <div class="about-grid">
+    <div class="about-card"><h3>O seu jeito</h3><p>Tem coisas em você que não cabem em palavras, mas eu tento: o seu jeito de estar por perto muda o clima de qualquer lugar.</p></div>
+    <div class="about-card"><h3>O que eu admiro</h3><p>Sua força, sua coragem de ser quem você é e o cuidado que você tem com quem ama. Eu aprendo com você todos os dias.</p></div>
+    <div class="about-card"><h3>O que eu desejo</h3><p>Que este novo ano venha com paz, conquistas e muitos momentos bons, e que eu esteja do seu lado em cada um deles.</p></div>
+  </div>
+</section>
+
+<section id="nos" class="reveal-section">
+  <h2>Um pouco sobre a gente</h2>
+  <p class="about-text">A nossa história começou em Natal, RN, e desde <b>11 de abril de 2024</b> a gente escolhe ficar. Teve pedido de namoro, aliança, o dia em que a gente se assumiu e a viagem dos nossos 2 anos. Cada pedaço está logo abaixo, na nossa linha do tempo.</p>
 </section>
 
 <section id="linha" class="reveal-section">
@@ -451,6 +479,11 @@ footer{background:#160817;color:#f6a8cf}
     <p class="intro">O lugar que guarda o início da nossa história</p>
     <div class="route">
       <div class="pin"><div class="mark">◈</div><h3>Natal, RN</h3><p>Foi lá que a gente se conheceu — sem imaginar que seria o começo de tudo isso.</p></div>
+    </div>
+    <div class="map-embed">
+      <iframe title="Mapa de Natal, RN" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-35.30%2C-5.88%2C-35.12%2C-5.70&amp;layer=mapnik&amp;marker=-5.7945%2C-35.2110"></iframe>
+      <a href="https://www.openstreetmap.org/?mlat=-5.7945&amp;mlon=-35.2110#map=13/-5.7945/-35.2110" target="_blank" rel="noopener">abrir mapa maior ↗</a>
     </div>
   </div>
 </section>
@@ -516,7 +549,7 @@ footer{background:#160817;color:#f6a8cf}
   <div class="scallop bottom"></div>
 </section>
 
-<footer>feito com todo o amor, para Jamilly · 11.04.2024</footer>
+<footer>feliz aniversário, Jamilly ♥ com todo o meu amor, Suyane</footer>
 
 <script>
 (function(){
@@ -614,6 +647,7 @@ footer{background:#160817;color:#f6a8cf}
     }
   }
 
+  window.celebrate=celebrate;
   function celebrate(){
     burstHearts(28);
     const box=document.getElementById('celebration');
@@ -762,12 +796,12 @@ body{cursor:none}
 <div id="cinematicIntro" aria-label="Abertura cinematográfica">
   <div class="ci-glow"></div><div class="ci-stars"></div>
   <div class="ci-content">
-    <div class="ci-date">11 de abril de 2024</div>
-    <div class="ci-names">Suyane <span style="color:#ff3f9f">&amp;</span> Jamilly</div>
+    <div class="ci-date">hoje o dia é seu</div>
+    <div class="ci-names">Parabéns,<br>Jamilly</div>
     <div class="ci-line"></div>
-    <div class="ci-sub">uma história que merece ser sentida</div>
+    <div class="ci-sub">feito pela Suyane, só pra você</div>
   </div>
-  <button class="ci-skip" id="ciSkip">entrar na nossa história</button>
+  <button class="ci-skip" id="ciSkip">abrir o seu presente</button>
 </div>
 <div id="cursorDot"></div><div id="cursorRing"></div><div id="scrollAura"></div><div id="ambientLight"></div>
 <div class="ultimate-flash" id="ultimateFlash"></div>
@@ -784,7 +818,7 @@ body{cursor:none}
 (function(){
   const intro=document.getElementById('cinematicIntro');
   const skip=document.getElementById('ciSkip');
-  const enter=()=>{intro.classList.add('hide');document.body.classList.add('story-started');};
+  let entered=false;const enter=()=>{if(entered)return;entered=true;intro.classList.add('hide');document.body.classList.add('story-started');setTimeout(()=>window.celebrate&&window.celebrate(),900);};
   skip.addEventListener('click',enter);
   setTimeout(enter,6200);
 
